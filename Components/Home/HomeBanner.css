@@ -1,0 +1,62 @@
+.banner{
+    height: 650px;
+    width: 100%;
+    background-image: linear-gradient(to right,#2F77DB,#E324DB);
+}
+.heading{
+    padding: 100px;
+}
+.heading h1,.p{
+    padding-left: 100px;
+    color: white;
+}
+.image img{
+    width: 100%;
+}
+.button{
+   margin-left: 100px;
+    color: black;
+    background: white;
+    border: 0;
+    padding: 15px 30px ;
+    border-radius: 10px;
+}
+.banner2{
+    
+    margin-top: -150px;
+}
+
+.col{
+    border-radius: 20px;
+}
+.banner5{
+    background-image: linear-gradient(120deg,rgba(90,90,90,.3),rgba(90,90,90,.3)),url("https://ak.picdn.net/shutterstock/videos/5011133/thumb/1.jpg") ;
+}
+.link{
+    margin-right: 30px;
+    font-size: 18px;
+    font-weight: 600;
+ 
+}
+.higlight{
+    color: blue;
+}
+.service-title::after{
+    content: '';
+    width: 100px;
+    height: 2px;
+    background-color: blue;
+    display: block;
+    margin-top: 5px;
+}
+.review-title::after{
+    content: '';
+    width: 150px;
+    height: 1px;
+    background-color: blue;
+    display: block;
+   
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 10px;
+}
