@@ -1,6 +1,7 @@
 .banner{
     height: 650px;
-    width: 100%;
+    background-size: cover;
+    margin: 0px;
     background-image: linear-gradient(to right,#2F77DB,#E324DB);
 }
 .heading{

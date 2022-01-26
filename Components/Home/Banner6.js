@@ -27,7 +27,7 @@ const Banner6 = () => {
         slidesToScroll: 3
     };
     return (
-        <div className=' text-center my-5 py-5'>
+        <div className='text-center my-5 py-5'>
             <h1 className='my-5'>Trusted by over <span className='higlight'>250,000 </span> Business Owners</h1>
             <Container>
                 <Slider {...settings}>

@@ -8,7 +8,7 @@ const Navigation = () => {
     return (
         <Navbar collapseOnSelect expand="lg" bg="white" className="container">
 
-            <Navbar.Brand href="#home" className='me-5'>
+            <Navbar.Brand href="/" className='me-5'>
                 <img
                     src="https://i.ibb.co/fFpMCc3/logo.png"
                     width="100"
@@ -20,14 +20,14 @@ const Navigation = () => {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="ms-auto">
-                    <Nav.Link className='link'>Services</Nav.Link>
-                    <Nav.Link className='link'>About Us</Nav.Link>
-                    <Nav.Link className='link'>Features</Nav.Link>
-                    <Nav.Link className='link'>Team</Nav.Link>
+                    <Nav.Link className='link' href='/service'>Services</Nav.Link>
+                    <Nav.Link className='link' href='/career'>Career</Nav.Link>
+                    <Nav.Link className='link' href='/feature'>Features</Nav.Link>
+                    <Nav.Link className='link' href='/team'>Team</Nav.Link>
 
-                    <Nav.Link className='link'>Blog</Nav.Link>
-                    <Nav.Link href="" className='link'>About Us</Nav.Link>
-                    <Button className='link'>Contact Us</Button>
+                    <Nav.Link className='link' href='/blog'>Blog</Nav.Link>
+                    <Nav.Link href="/about" className='link'>About Us</Nav.Link>
+                    <Button className='link' href='/contact'>Contact Us</Button>
 
                 </Nav>
 

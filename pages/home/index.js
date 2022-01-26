@@ -1,3 +1,4 @@
+import Footer from "../../Components/Footer";
 import Banner2 from "../../Components/Home/Banner2";
 import Banner3 from "../../Components/Home/Banner3";
 import Banner4 from "../../Components/Home/Banner4";
@@ -16,7 +17,7 @@ import Navigation from "../../Components/Navbar";
 const Home = () => {
     return (
         <div>
-            <Navigation></Navigation>
+
             <HomeBanner></HomeBanner>
             <Banner2></Banner2>
             <Banner3></Banner3>
@@ -28,6 +29,7 @@ const Home = () => {
             <Teams></Teams>
             <Story></Story>
             <Contract></Contract>
+
         </div>
     )
 

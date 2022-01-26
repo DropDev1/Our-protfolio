@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { } from 'react-fontawesome'
 import { Button } from 'react-bootstrap'
 const services = [{
     name: "Artificial Intelligence",
