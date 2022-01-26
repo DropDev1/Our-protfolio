@@ -10,7 +10,14 @@ a {
   color: inherit;
   text-decoration: none;
 }
+.link{
+  margin-right: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 20px;
+  text-decoration: none;
 
+}
 * {
   box-sizing: border-box;
 }

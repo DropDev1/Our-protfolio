@@ -5,7 +5,7 @@ const SubmissionForm = () => {
     return (
         <Container>
 
-            <Form className='my-5 py-5 '>
+            <Form className='my-5 py-5 w-75 mx-auto '>
                 <Row className="mb-3">
                     <Form.Group as={Col}>
 

@@ -19,7 +19,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className=''>
+    <div className={styles.container}>
       <HomeBanner></HomeBanner>
       <Banner2></Banner2>
       <Banner3></Banner3>

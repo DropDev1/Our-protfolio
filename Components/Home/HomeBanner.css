@@ -8,14 +8,14 @@
     padding: 100px;
 }
 .heading h1,.p{
-    padding-left: 100px;
+    
     color: white;
 }
 .image img{
     width: 100%;
 }
 .button{
-   margin-left: 100px;
+   
     color: black;
     background: white;
     border: 0;
@@ -33,12 +33,7 @@
 .banner5{
     background-image: linear-gradient(120deg,rgba(90,90,90,.3),rgba(90,90,90,.3)),url("https://ak.picdn.net/shutterstock/videos/5011133/thumb/1.jpg") ;
 }
-.link{
-    margin-right: 30px;
-    font-size: 18px;
-    font-weight: 600;
- 
-}
+
 .higlight{
     color: blue;
 }
