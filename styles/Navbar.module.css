@@ -1,3 +1,43 @@
-.link{
-    margin: 10px;
+/* menu link styling  */
+.link {
+  margin: 0px 4px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0px 15px;
+  cursor: pointer;
+}
+
+/* re declare default class  */
+.newNav {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* contact button  */
+.contact_Btn {
+  background: linear-gradient(to right top, #c72c7b, #c72c7b, #81328a, #6e318d);
+  border: none;
+  outline: none;
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  padding: 8px 20px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  box-shadow: inset 0 0 0 0 white;
+  transition: 0.8s;
+  transition-duration: 2s;
+}
+
+.contact_Btn:hover {
+  box-shadow: inset 250px 100px 10px 0 #f4f4f4;
+  color: #6e318d;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
 }
